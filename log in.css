@@ -1,0 +1,17 @@
+ .body{
+   
+
+}
+.box{
+    width: 100%;
+    margin-left: 110%;
+    margin-top: 50%;
+    background-color: rgb(224, 209, 209);
+    padding-left: 15px;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+}
+input{
+    margin-right: -20px;
+}
