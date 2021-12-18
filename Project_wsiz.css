@@ -164,7 +164,13 @@ color: rgb(0, 0, 0) ;
     display: flex;
     margin-top: 20px;
 }
-
+.smo{
+    text-decoration: none;
+    color: white;
+}
+.smo:hover{
+    color: gray;
+}
 
 
 
