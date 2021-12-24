@@ -1,7 +1,7 @@
 <?php
     /* created a new var and assigned them from our log in.php */
-    $email =$_POST['projemail'];
-    $pass =$_POST['projpass'];
+    $email =$_POST['useremail'];
+    $pass =$_POST['userpassword'];
     
     /*connection between our var and database */
     $mysql = new mysqli('localhost','root','','db_forlogin');

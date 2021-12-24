@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
     <meta charset="UTF-8">
@@ -9,28 +11,30 @@
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     
     <body class="body">
+     
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 colsm-4">
                     <div class="box">
                         <div class="place ">
                             <h1 class="text-center">Log in</h1>
-                            <form action="" method="post">
-                                
+
+                            <form action="database.php" method="post">
                                 <div class="mb-3 text-center">
-                                <label for="projemail" class="form-label">Email address</label>
-                                <input type="email" placeholder="John@gmail.com" class="form-control" name="projemail"  id="projemail" >
+                                <label for="email" class="form-label">Email address</label>
+                                <input name="useremail" type="email" placeholder="John@gmail.com" class="form-control" >
                                 <div id="emailHelp" class="form-text ">We'll never share your email with anyone else.</div>
                                 </div>
                                 <div class="mb-3">
-                                <label for="projpass" class="form-label">Password</label>
-                                <input type="password" placeholder="*******" class="form-control" id="projpass" name="projpass">
+                                <label for="pass" class="form-label">Password</label>
+                                <input name="userpassword" type="password" placeholder="*******" class="form-control">
                                 </div>
                                 <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary" name="click1">Submit</button>
+                               
                           </form>
                         </div>
                        
