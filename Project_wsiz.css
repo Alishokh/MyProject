@@ -11,8 +11,11 @@ background: -webkit-linear-gradient(left,  var(--color1) 0%,rgba(9,11,19,1) 100%
 background: linear-gradient(to right,  var(--color1) 0%,rgba(9,11,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a95165', endColorstr='#090b13',GradientType=1 ); /* IE6-9 */
 background-size: contain;
-padding: 20px;
+height: 60px;
 
+}
+.dropdown .btn{
+    margin-top: -5px;
 }
 body{
     
@@ -27,12 +30,13 @@ body{
     align-items: center;
     
 }
+.header_img{
+    width: 150px;
+}
 .top_header a:hover{
     color: var(--header);
 }
-.header_a {
-    font-size: 30px;
-}
+
 .asd{
     margin-top: 15px;
     display: flex;
@@ -74,11 +78,15 @@ background: linear-gradient(to right,  rgba(131,125,21,1) 0%,rgba(176,168,28,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#837d15', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
 color: rgb(126, 37, 37);
 }
-
+.section1 .card_dada{
+    color: var(--color1);
+    text-shadow: 10px 10px 10px var(--color1);
+}
 .section1 .card{
-    border: 3px solid var(--color2);
+    border: 2px solid var(--color2);
     margin-bottom: 30px;
     width: 300px;
+    text-shadow: 3px 3px 10px var(--color1);
 }
 .section1 .card_description, h6{
 display: block;
