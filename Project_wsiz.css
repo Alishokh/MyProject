@@ -4,17 +4,7 @@
     --color2: rgb(126, 37, 37);
     --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
 }
-.top_header {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a95165+0,090b13+100 */
-background: rgb(169,81,101); /* Old browsers */
-background: -moz-linear-gradient(left,  var(--color1) 0%, rgba(9,11,19,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  var(--color1) 0%,rgba(9,11,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  var(--color1) 0%,rgba(9,11,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a95165', endColorstr='#090b13',GradientType=1 ); /* IE6-9 */
-background-size: contain;
-height: 60px;
 
-}
 .dropdown .btn{
     margin-top: -5px;
     
@@ -24,20 +14,12 @@ body{
     color: white;
 }
 /*style for header items*/
- .top_header a{
-    text-decoration: none; 
-    color: rgb(163, 187, 99);
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    
+ 
+.navbar  img{
+height: 20px;
+margin-left: 50px;
 }
-.header_img{
-    width: 150px;
-}
-.top_header a:hover{
-    color: var(--header);
-}
+
 
 .asd{
     margin-top: 15px;
@@ -79,6 +61,8 @@ background: -webkit-linear-gradient(left,  rgba(131,125,21,1) 0%,rgba(176,168,28
 background: linear-gradient(to right,  rgba(131,125,21,1) 0%,rgba(176,168,28,1) 0%,rgba(176,168,28,1) 0%,rgba(153,147,25,1) 19%,rgba(122,117,20,1) 43%,rgba(122,117,20,1) 43%,rgba(122,117,20,1) 48%,rgba(122,117,20,1) 50%,rgba(122,117,20,1) 50%,rgba(76,73,12,1) 67%,rgba(76,73,12,1) 67%,rgba(0,0,0,1) 100%,rgba(29,28,5,1) 100%,rgba(33,31,5,1) 100%,rgba(29,28,5,1) 100%,rgba(0,0,0,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#837d15', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
 color: rgb(126, 37, 37);
+width: 100%;
+margin-top: 50px;
 }
 .section1 .card_dada{
     color: var(--color1);
@@ -248,7 +232,9 @@ color: rgb(0, 0, 0) ;
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
   }
-
+.navbar{
+background-color:rgb(214, 12, 12);
+}
 
 
 
