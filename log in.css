@@ -1,17 +1,18 @@
+
 .box{
-    border: 1px solid rgb(128, 111, 111);
-    
-}
-.box{
-    width: 100%;
-    margin-left: 110%;
-    margin-top: 50%;
+    width: 120%;
     background-color: rgb(247, 243, 243);
-    padding-left: 15px;
-    padding-right: 15%;
-    padding-bottom: 20px;
-    padding-bottom: 20px;
+    border: 1px solid rgb(128, 111, 111);
+
 }
 input{
     margin-right: -20px;
+}
+form{
+    margin: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
